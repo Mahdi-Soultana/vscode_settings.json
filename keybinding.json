@@ -1,0 +1,50 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "alt+c",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "alt+x",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "alt+left",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "alt+right",
+    "command": "workbench.action.nextEditor"
+  },
+  { "key": "ctrl+tab", "command": "workbench.action.nextEditor" },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+f4",
+    "command": "-workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "-workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
+  }
+]
